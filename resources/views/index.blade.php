@@ -56,7 +56,7 @@ $lng=session('lang');
                         <div class="full">
                             <div class="center-desk">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" alt="#" style="width: 160px;"></a>
+                                    <a href="index.html"><img src="images/logo.png" alt="#" style="width: 120px;"></a>
                                 </div>
                             </div>
                         </div>
@@ -64,10 +64,12 @@ $lng=session('lang');
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <div class="location_icon_bottum_tt">
                             <ul>
-                                <li><img src="icon/loc1.png" />Location</li>
+                               <!-- <li><img src="icon/loc1.png" />{{trans('welcome.location')}}</li>-->
                                 <li><img src="icon/email1.png" />demo@gmail.com</li>
 
                                 <li><img src="icon/call1.png" />+1(512)412-8242</li>
+
+                                <li>@include('lang-icon')</li>
                             </ul>
                         </div>
                     </div>
@@ -82,35 +84,18 @@ $lng=session('lang');
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="/">{{trans('welcome.home')}}</a> </li>
-                                                <li><a href="#product">Services</a></li>
-                                                <li><a href="#testimonial">Testimonial</a></li>
-                                                <li><a href="#contact">Contact Us</a></li>
-
+                                                <li><a href="#product">{{trans('welcome.services')}}</a></li>
+                                                <li><a href="#testimonial">{{trans('welcome.testimonial')}}</a></li>
+                                                <li><a href="#contact">{{trans('welcome.contact')}}</a></li>
                                                 <li>
-                                                    <div class="lang-icon" style="width: 100%">  
-                                    @if($lng=="es")
-                                        <a href="{{ url('lang', ['en']) }}">
-                                            <img src="images/en.png" alt="Idioma">  
-                                        </a>
-                                    @else
-                                        <a href="{{ url('lang', ['es']) }}">
-                                            <img src="images/es.png" alt="Idioma">  
-                                        </a>
-                                    @endif
-                                </div>
+                                                    <div class="lang-icon d-xl-none d-lg-none d-md-none" style="width: 100%">  
+                                                       @include('lang-icon')
+                                                    </div>
                                                 </li>
                                             </ul>
-
-
-
-
-
                                         </nav>
-
                                     </div>
-
                                 </div>
-
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                                                 

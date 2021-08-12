@@ -36,7 +36,7 @@ html {
      scroll-behavior: smooth;
      /*margin-top: 158px;
      margin-top: 158px;*/
-     padding-top: 158px;
+     padding-top: 130px;
 }
 
 body {
@@ -1834,9 +1834,9 @@ margin: 0 auto;
 
 .about .about_box p {
      font-size: 17px;
-     line-height: 33px;
+     line-height: 25px;
      color: #4c4a49;
-     padding: 40px 0px;
+     padding: 10px 0px;
      font-weight: 500;
 }
 .about .about_box a, .boton {
