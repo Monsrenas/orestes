@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>testimonial</h2>
+                        <h2> {{trans('welcome.testimonial')}}</h2>
                     </div>
                 </div>
             </div>
@@ -26,11 +26,7 @@
 
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
-                                        </div>
-                                    </div>
+                                     
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
@@ -52,11 +48,7 @@
                             </div>
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
-                                        </div>
-                                    </div>
+                                     
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
@@ -79,11 +71,7 @@
                             </div>
                             <div class="full testimonial_cont text_align_center cross_layout">
                                 <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
-                                        </div>
-                                    </div>
+                                     
                                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
                                         <div class="cross_inner">
                                             <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>

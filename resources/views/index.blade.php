@@ -83,7 +83,7 @@ $lng=session('lang');
                                     <div class="limit-box">
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="/">{{trans('welcome.home')}}</a> </li>
+                                                <li class="active"> <a href="/#">{{trans('welcome.home')}}</a> </li>
                                                 <li><a href="#product">{{trans('welcome.services')}}</a></li>
                                                 <li><a href="#testimonial">{{trans('welcome.testimonial')}}</a></li>
                                                 <li><a href="#contact">{{trans('welcome.contact')}}</a></li>
@@ -98,9 +98,6 @@ $lng=session('lang');
                                 </div>
                             </div>
                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                                                
-                                
-
                             </div>
                        </div>
                     </div>
@@ -115,13 +112,13 @@ $lng=session('lang');
 
     @include('about')
     
-     
+    @include('clients') 
 
     @include('offer')
 
     @include('services')
 
-    @include('clients') 
+   
 
     @include('evaluation')  
 

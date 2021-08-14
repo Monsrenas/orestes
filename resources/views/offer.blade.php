@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 ">
                         <div class="offer_box">
-                            <h3>40% off</h3>
+                            <h3>40% {{trans('welcome.discount')}}</h3>
                             <figure><img src="images/servicio001.png" alt="img" /></figure>
                             <p> {{trans('welcome.offer')[0]}}</p>
 
@@ -33,7 +33,7 @@
 
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
                         <div class="offer_box">
-                            <h3>50% off</h3>
+                            <h3>50% {{trans('welcome.discount')}}</h3>
                             <figure><img src="images/partes/sistemarefrige.jpg" alt="img" /></figure>
                             <p>{{trans('welcome.offer')[1]}}</p>
                         </div>
