@@ -23,21 +23,29 @@ input[type="radio"]:checked ~ label {
 
  </style>
 
-
+  <div class="offer" id="evalua">
         <div class="container">
           <div class="row ">
+            <div class="col-md-12">
+                <div class="title">
+                        <h2>{{trans('welcome.evalTitle')}} <strong class="black">{{trans('welcome.testiTitle')}}</strong></h2>
+                </div>
+            </div>
             <div class="col-md-8 col-xs-7">
               <div class="parrafo">
-              <p class="text-justify">evaluaciones_izquierda</p>
-              <p class="text-justify"></p>
-              </div>           
+                <p class="text-justify">{{trans('welcome.evalIntro')}}</p>
+              </div>
+             
+                 @include('List_testimonios')
+                        
             </div>
 
             <div class="col-md-4 col-xs-5 parrafo">
               <div style="float: none;">
-              <p class="text-justify" style="color: #GF6F6F;">evaluaciones_derecha</p> 
+              <h3>{{trans('welcome.comoevalua')}}</h3> 
               </div>
-              <form  style="color:black;" action="guardatestimonio.php" method="post" autocomplete="off" class=" ">
+              <form method="post" style="color:black;" action="{{url('/RegistraTestimonio')}}" autocomplete="off" id="SendEval">
+                @csrf 
                 <p class="clasificacion" style=" font-size: 2vw;">
                     <input id="radio1" name="estrellas" value="5" type="radio"><!--
                 --><label for="radio1">★</label><!--
@@ -56,9 +64,14 @@ input[type="radio"]:checked ~ label {
                 <input name="localidad" type="text" id="lugar" placeholder="localidad" required="" class="form-control">
                  
                 <textarea style="overflow: hidden;" rows="4" cols="30" name="mensaje" placeholder="testimonio" class="textarea"></textarea>
-                <p id="bot" ><input type="submit" id="submit" name="submit" value="enviar" class="boton" style="font-size: 1.5vw; float: none;"></p>
+                <p id="" ><input type="submit" id="submit" name="submit" value="{{trans('welcome.send')}}" class="boton" style="font-size: 1.5vw; float: none;"></p>
+                    </div>
+
               </form>
           
           </div>
         </div>
       </div>
+</div>
+
+ 

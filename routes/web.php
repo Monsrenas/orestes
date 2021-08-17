@@ -12,11 +12,18 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-        
+
+Route::post('RegistraTestimonio','ClientController@RegistraTestimonio');
+
 Route::group(['middleware' => ['web']], function () {
-		Route::get('/', function () {
+
+		Route::get('/','ClientController@List');
+		
+		/*Route::get('/', function () {
 		    return view('index');
-		});
+		});*/
+
+		
 
 		Route::get('/contactus', function () {
 		    return view('contact');
@@ -26,5 +33,7 @@ Route::group(['middleware' => ['web']], function () {
 						        session(['lang' => $lang]);
 						        return \Redirect::back();
 						    })->where(['lang' => 'en|es']);
+
+
 });
 

@@ -6,6 +6,9 @@ return [
     'services'=>'Servicios',
     'testimonial' => 'Testimonios',
     'contact' => 'Contactanos',
+
+    'readmore'=>'Leer más',
+    'send'=>'Enviar',
     
     'signin' => 'Sign in',
     'close' => 'Close',
@@ -15,6 +18,10 @@ return [
     'bookin'=> 'Sign up',
     'reppassw'=> 'Repeat password',
     'chnglng'=>'Cambiar idioma a español',
+    'comoevalua'=>'¿Cómo evalúa su experiencia?',
+    'evalTitle'=>'Evaluaciones y',
+    'testiTitle'=>'testimonios',
+    'evalIntro'=>'Entre las estrategia para el perfeccionamiento exhortamos a nuestros clientes a que nos dejen saber el impacto del servicio recibido:',
 
     'Mission'=> 'Mission:',
     'whyus'=> '¿Por qué elegirnos?',
