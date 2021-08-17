@@ -2,7 +2,7 @@
     $ciclo=(count($lista)<11)?count($lista):10;
     $ctv=($ciclo>1)?1:0; 
 ?>
-@if($ctv>0)
+@if($ciclo>0)
     <!-- clients -->
        <div id="testimonial" class="clients">
         <div class="container">

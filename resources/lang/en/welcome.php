@@ -9,6 +9,13 @@ return [
  
     'readmore'=>'Read More',
     'send'=>'Send',
+    'getin'=>'GET IN',
+    'toucgh'=>'TOUCGH',
+
+    'nosotros'=>['Mission','View','Main Values'],
+    'mision'=>'To be the preferred motor vehicle air conditioning service company.',
+    'vision'=>'Become a paradigm for management models in technical assistance services.',
+    'valores'=>['Integrity and respect', 'Excellence and proactivity', 'Growth and Continuous Improvement', 'Compliance / Win win'],
 
     'signin' => 'Sign in',
     'close' => 'Close',

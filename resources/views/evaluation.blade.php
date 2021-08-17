@@ -23,7 +23,7 @@ input[type="radio"]:checked ~ label {
 
  </style>
 
-  <div class="offer" id="evalua">
+  <div class="offer" id="<?php echo ((count($lista)>0)?"evalua":"testimonial") ?>">
         <div class="container">
           <div class="row ">
             <div class="col-md-12">

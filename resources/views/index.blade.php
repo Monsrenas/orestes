@@ -65,11 +65,11 @@ $lng=session('lang');
                         <div class="location_icon_bottum_tt">
                             <ul>
                                <!-- <li><img src="icon/loc1.png" />{{trans('welcome.location')}}</li>-->
-                                <li><img src="icon/email1.png" />demo@gmail.com</li>
+                                <li><img src="icon/email1.png" />realmontecarlo720903@gmail.com</li>
 
                                 <li><img src="icon/call1.png" />+1(512)412-8242</li>
 
-                                <li>@include('lang-icon')</li>
+                                <li style="margin-left: -50px;">@include('lang-icon')</li>
                             </ul>
                         </div>
                     </div>
@@ -132,43 +132,30 @@ $lng=session('lang');
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
-                            <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sdolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
-                            <h3>Quick links</h3>
+                            <h3>{{trans('welcome.nosotros')[0]}}</h3>
+
+                            <p>{{trans('welcome.mision')}}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="address">
+                            <h3>{{trans('welcome.nosotros')[1]}}</h3>
+                            <p>{{trans('welcome.vision')}}</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                        <div class="address">
+                            <h3>{{trans('welcome.nosotros')[2]}}</h3>
                             <ul class="Links_footer">
-                                <li><img src="icon/3.png" alt="#" /> <a href="#"> Join Us</a> </li>
-                                <li><img src="icon/3.png" alt="#" /> <a href="#">Maintenance</a> </li>
-                                <li><img src="icon/3.png" alt="#" /> <a href="#">Language Packs</a> </li>
-                                <li><img src="icon/3.png" alt="#" /> <a href="#">LearnPress</a> </li>
-                                <li><img src="icon/3.png" alt="#" /> <a href="#">Release Status</a> </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="address">
-                            <h3>Subcribe email</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
-                            <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
-                            <button class="submit-btn">Submit</button>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div class="address">
-                            <h3>Contact Us</h3>
-
-                            <ul class="loca">
-                                <li>
-                                    <a href="#"><img src="icon/loc.png" alt="#" /></a>London 145
-                                    <br>United Kingdom </li>
-                                <li>
-                                    <a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com </li>
-                                <li>
-                                    <a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775 </li>
+                            @foreach(trans('welcome.valores') as $text)
+                              <li><span>{{$text}}</span></li> 
+                            @endforeach
                             </ul>
                         </div>
                     </div>

@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Get In <strong class="black"> Toucgh</strong></h2>
+                        <h2>{{trans('welcome.getin')}} <strong class="black">{{trans('welcome.toucgh')}}</strong></h2>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                                         <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
                                     </div>
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                        <button class="send">Send</button>
+                                        <button class="send">{{trans('welcome.send')}}</button>
                                     </div>
                                 </div>
                             </form>

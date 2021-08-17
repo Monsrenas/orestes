@@ -23,9 +23,9 @@
 
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin_tt">
                         <div class="offer_box">
-                            <h2 style="color: gray;">{{trans('welcome.importitle')}}</h2>
+                            <h2 style="color: #2CBAC3;">{{trans('welcome.importitle')}}</h2>
                             @foreach(trans('welcome.importext') as $text)
-                                <p style="color: gray;">{{$text}}</p>
+                                <p style="color: #2CBAC3;">{{$text}}</p>
                             @endforeach
                             
                         </div>

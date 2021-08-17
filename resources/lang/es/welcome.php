@@ -9,6 +9,13 @@ return [
 
     'readmore'=>'Leer más',
     'send'=>'Enviar',
+    'getin'=>'Ponerse',
+    'toucgh'=>'en contacto',
+
+    'nosotros'=>['Misión', 'Visión', 'Valores'],
+    'mision'=>'Ser la empresa de servicios de climatizacion de vehiculos automotores de preferencia.',
+    'vision'=>'Convertirnos en paradigma para los modelos de gestión en servicios de asistencia tecnica.',
+    'valores'=>['Integridad y respeto','Excelencia y proactividad','Crecimiento y Mejora Continua','Cumplimiento / Ganar ganar'],
     
     'signin' => 'Sign in',
     'close' => 'Close',
