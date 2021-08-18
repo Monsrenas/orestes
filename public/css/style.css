@@ -1617,12 +1617,12 @@ width: 100%;
 
 .location_icon_bottum_tt ul li {
      display: inline-block;
-padding: 27px 60px;
+padding: 3% 4%;
 color: #fff;
 font-size: 15px;
 font-weight: 500;
 }
-.location_icon_bottum_tt ul li img {padding-right: 10px;}
+.location_icon_bottum_tt ul li img {padding-right:15px;}
 
 
 
