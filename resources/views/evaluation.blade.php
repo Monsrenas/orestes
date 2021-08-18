@@ -46,7 +46,7 @@ input[type="radio"]:checked ~ label {
               </div>
               <form method="post" style="color:black;" action="{{url('/RegistraTestimonio')}}" autocomplete="off" id="SendEval">
                 @csrf 
-                <p class="clasificacion" style=" font-size: 2vw;">
+                <p class="clasificacion" style=" font-size: 44px;">
                     <input id="radio1" name="estrellas" value="5" type="radio"><!--
                 --><label for="radio1">★</label><!--
                 --><input id="radio2" name="estrellas" value="4" type="radio"><!--
@@ -64,7 +64,7 @@ input[type="radio"]:checked ~ label {
                 <input name="localidad" type="text" id="lugar" placeholder="localidad" required="" class="form-control">
                  
                 <textarea style="overflow: hidden;" rows="4" cols="30" name="mensaje" placeholder="testimonio" class="textarea"></textarea>
-                <p id="" ><input type="submit" id="submit" name="submit" value="{{trans('welcome.send')}}" class="boton" style="font-size: 1.5vw; float: none;"></p>
+                <p id="" ><input type="submit" id="submit" name="submit" value="{{trans('welcome.send')}}" class="boton"></p>
                     </div>
 
               </form>

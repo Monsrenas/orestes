@@ -11,6 +11,11 @@ return [
     'send'=>'Enviar',
     'getin'=>'Ponerse',
     'toucgh'=>'en contacto',
+    
+    'bnnrL1'=>['Climatización','Mantenimiento','Manejo'],
+    'bnnrL2'=>['Todo tipo de vehiculo automotor','Preventivo','Responsable'],
+    'bnnrL3'=>['Operamos bajo un revolucionario modelo de servicio con atención personalizada en el espacio de su elección.','','Certificado de gestión responsable, categoría universal, para el medio ambiente, que garantiza la garantía de nuestra trabajo.'],
+
 
     'nosotros'=>['Misión', 'Visión', 'Valores'],
     'mision'=>'Ser la empresa de servicios de climatizacion de vehiculos automotores de preferencia.',

@@ -12,6 +12,11 @@ return [
     'getin'=>'GET IN',
     'toucgh'=>'TOUCGH',
 
+    'bnnrL1'=>['AC System','Preventive','Responsible'],
+    'bnnrL2'=>['All types of automotive vehicle','Maintenance','management'],
+    'bnnrL3'=>['We operate under a revolutionary service model that provides you with personalized attention in the space of your choice.','','Responsible management certificate, a universal category, for the environment, which guarantees the guarantee of our work.'],
+
+
     'nosotros'=>['Mission','View','Main Values'],
     'mision'=>'To be the preferred motor vehicle air conditioning service company.',
     'vision'=>'Become a paradigm for management models in technical assistance services.',

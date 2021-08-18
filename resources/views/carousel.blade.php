@@ -10,10 +10,10 @@
                     <img class="first-slide" src="images/banner/banner1.jpg" alt="First slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>AC System</h1>
-                            <span>All types of automotive vehicle</span>
+                            <h1>{{trans('welcome.bnnrL1')[0]}}</h1>
+                            <span>{{trans('welcome.bnnrL2')[0]}}</span>
 
-                            <p>We operate under a revolutionary service model that provides you with personalized attention in the space of your choice.</p>
+                            <p>{{trans('welcome.bnnrL3')[0]}}</p>
     
                         </div>
                     </div>
@@ -22,8 +22,8 @@
                     <img class="second-slide" src="images/banner/banner2.jpg" alt="Second slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Preventive </h1>
-                            <span>Maintenance</span>
+                            <h1>{{trans('welcome.bnnrL1')[1]}}</h1>
+                            <span>{{trans('welcome.bnnrL2')[1]}}</span>
 <!--
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
                             <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>-->
@@ -35,10 +35,10 @@
                     <img class="third-slide" src="images/banner/banner3.jpg" alt="Third slide">
                     <div class="container">
                         <div class="carousel-caption relative">
-                            <h1>Responsible</h1>
-                            <span>management</span>
+                            <h1>{{trans('welcome.bnnrL1')[2]}}</h1>
+                            <span>{{trans('welcome.bnnrL2')[2]}}</span>
 
-                            <p>Responsible management certificate, a universal category, for the environment, which guarantees the guarantee of our work.</p>
+                            <p>{{trans('welcome.bnnrL3')[2]}}</p>
 
                             <!--
                             <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>  -->
