@@ -69,7 +69,7 @@ $lng=session('lang');
 
                                 <li><img src="icon/call1.png" />+1(512)412-8242</li>
 
-                                <li style="margin-left: 0px;">@include('lang-icon')</li>
+                                <li style="margin-left: 0px; float: right;">@include('lang-icon')</li>
                             </ul>
                         </div>
                     </div>

@@ -46,7 +46,7 @@ input[type="radio"]:checked ~ label {
               </div>
               <form method="post" style="color:black;" action="{{url('/RegistraTestimonio')}}" autocomplete="off" id="SendEval">
                 @csrf 
-                <p class="clasificacion" style=" font-size: 44px;">
+                <p class="clasificacion" style=" font-size: 34px;">
                     <input id="radio1" name="estrellas" value="5" type="radio"><!--
                 --><label for="radio1">★</label><!--
                 --><input id="radio2" name="estrellas" value="4" type="radio"><!--
