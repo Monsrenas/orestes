@@ -54,9 +54,9 @@ $lng=session('lang');
                 <div class="row">
                     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col logo_section">
                         <div class="full">
-                            <div class="center-desk">
+                            <div class="center-desk ">
                                 <div class="logo">
-                                    <a href="index.html"><img src="images/logo.png" alt="#" style="width: 120px;"></a>
+                                    <a href="index.html"><img src="images/logo.png" alt="#" style="width: 8.6em;"></a>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ $lng=session('lang');
 
                                 <li><img src="icon/call1.png" />+1(512)412-8242</li>
 
-                                <li style="margin-left: -60px;">@include('lang-icon')</li>
+                                <li style="margin-left: 0px;">@include('lang-icon')</li>
                             </ul>
                         </div>
                     </div>
